@@ -1,0 +1,47 @@
+.Navbar {
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .Navbar h1 {
+        margin-top: 0;
+        padding-top: 0;
+        font-family: 'haloregular', "Arial Black", sans-serif;
+        font-size: 28px;
+        color: rgb(32, 32, 32);
+    }
+
+    .Navbar-pages a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .Navbar {
+        padding: 15px 10px 10px;
+    }
+
+    .Navbar h1 {
+        font-family: 'haloregular', "Arial Black", sans-serif;
+        font-size: 20px;
+        color: rgb(32, 32, 32);
+    }
+
+    .Navbar-pages a {
+        font-size: 11px;
+    }
+}
+
+.Navbar-pages a {
+    font-family: 'avenir light', "Arial Black", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    padding: 10px 10px;
+}
+
+.Navbar-pages a:hover {
+    color: #9c9c9c;
+}
