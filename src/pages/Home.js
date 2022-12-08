@@ -7,7 +7,7 @@ function Home() {
         <div className="Home">
             <Navbar currentPage="home" />
             <div className='Home-intro'>
-                welcome
+                <h1>Hi! Welcome to my portfolio. My UI/UX work lives in this website—feel free to look around.</h1>
             </div>
         </div>
     );

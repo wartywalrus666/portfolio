@@ -1,0 +1,34 @@
+.Projects {
+    background-color: rgb(31, 31, 31);
+    height: 100vh;
+}
+
+.Projects-links {
+    margin-top: 5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Projects-link {
+    width: 40vw;
+    padding: 1em 3em;
+    margin: 1em;
+    background-color: rgba(238, 238, 238, 0.5);
+}
+
+.Projects h2 {
+    padding: 0;
+    padding-top: 0.3em;
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.Projects p {
+    padding-top: 0
+}
+
+.Projects a {
+    text-decoration: underline white;
+}

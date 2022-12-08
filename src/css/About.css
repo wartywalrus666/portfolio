@@ -1,4 +1,10 @@
+.About {
+    background-color: var(--black);
+    height: 100vh;
+}
+
 .About-Text h1 {
+    color: white;
     font-size: 50px;
     width: 50vw;
     margin-left: 5vw;

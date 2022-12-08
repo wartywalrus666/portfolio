@@ -1,17 +1,19 @@
 .Home {
-    background-color: rgb(210, 210, 210);
-}
-
-.Home-logo1 {
-    height: 90vh;
-    background-size: 55vh;
-    background-position: center;
+    background-color: rgb(31, 31, 31);
+    width: 100vw;
+    height: 100vh;
+    color: white;
 }
 
 .Home-intro {
-    position: absolute;
-    left: 20vw;
+    width: 100vw;
     top: 25vh;
+    font-size: 25px;
+    width: 50vw;
+    float: right;
+    margin-right: 4em;
+    margin-top: 5em;
+    text-align: right;
 }
 
 .Home-intro p {

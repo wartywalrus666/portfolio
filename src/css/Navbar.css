@@ -35,11 +35,11 @@
 }
 
 .Navbar-pages a {
-    font-family: 'avenir light', "Arial Black", sans-serif;
+    font-family: 'avenir', "Arial Black", sans-serif;
     text-align: center;
     text-decoration: none;
     color: rgb(32, 32, 32);
-    padding: 10px 10px;
+    padding: 10px 80px;
 }
 
 .Navbar-pages a:hover {
