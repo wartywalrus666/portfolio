@@ -6,9 +6,9 @@ function Navbar(props) {
         <div className="Navbar">
             <h1 className="Navbar-header"> My Portfolio </h1>
             <div className="Navbar-pages">
-                <a href='/home'> HOME </a>
-                <a href='/projects'> PROJECTS </a>
-                <a href='/about'> ABOUT </a>
+                <Link to={process.env.PUBLIC_URL + '/home'}>HOME</Link>
+                <Link to={process.env.PUBLIC_URL + '/projects'}>Projects</Link>
+                <Link to={process.env.PUBLIC_URL + '/about'}>About</Link>
             </div>
         </div>
     )

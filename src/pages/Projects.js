@@ -7,9 +7,9 @@ function Projects() {
         <div className="Projects">
             <Navbar currentPage="Projects" />
             <div className="Projects-Text" >
-                <Link to="/projects/personas"> personas </Link> <br />
-                <Link to="/projects/responsivedesign"> responsive design </Link><br />
-                <Link to="/projects/development"> development </Link><br />
+                <Link to={process.env.PUBLIC_URL + "/projects/personas"}> personas </Link> <br />
+                <Link to={process.env.PUBLIC_URL + "/projects/responsivedesign"}> responsive design </Link><br />
+                <Link to={process.env.PUBLIC_URL + "/projects/development"}> development </Link><br />
             </div>
         </div>
     );
