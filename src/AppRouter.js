@@ -9,7 +9,7 @@ import Project from './projects/Project';
 class AppRouter extends React.Component {
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <div className="main">
                     <Routes>
                         {/*pages*/}
@@ -20,6 +20,7 @@ class AppRouter extends React.Component {
                             <Route index element={<Projects />} />
                             <Route path=":p" element={<Project />} />
                         </Route>
+                        <Route path="*" element={<App />} />
                     </Routes>
                 </div>
             </BrowserRouter>
