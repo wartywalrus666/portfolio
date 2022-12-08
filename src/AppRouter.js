@@ -14,10 +14,10 @@ class AppRouter extends React.Component {
             <HashRouter>
                 <div className="main">
                     <Routes>
-                        <Route path='/' element={<App />} exact={true} />
-                        <Route path='/home' element={<Home />} />
-                        <Route path='/about' element={<About />} />
-                        <Route path='/projects'>
+                        <Route path='/portfolio' element={<App />} exact={true} />
+                        <Route path='/portfolio/home' element={<Home />} />
+                        <Route path='/portfolio/about' element={<About />} />
+                        <Route path='/portfolio/projects'>
                             <Route index element={<Projects />} />
                             <Route path=":p" element={<Project />} />
                         </Route>
