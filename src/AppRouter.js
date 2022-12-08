@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import App from "./App";
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -7,12 +7,13 @@ import About from './pages/About';
 import Project from './projects/Project';
 
 class AppRouter extends React.Component {
+
+    // basename={process.env.PUBLIC_URL}
     render() {
         return (
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter>
                 <div className="main">
                     <Routes>
-                        {/*pages*/}
                         <Route path='/' element={<App />} exact={true} />
                         <Route path='/home' element={<Home />} />
                         <Route path='/about' element={<About />} />
@@ -23,7 +24,7 @@ class AppRouter extends React.Component {
                         <Route path="*" element={<App />} />
                     </Routes>
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         );
     }
 }
