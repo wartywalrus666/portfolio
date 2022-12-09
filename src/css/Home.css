@@ -5,6 +5,13 @@
     color: white;
 }
 
+.Home-paint {
+    float: left;
+    margin-top: 5em;
+    margin-left: 5em;
+    cursor: crosshair;
+}
+
 .Home-intro {
     width: 100vw;
     top: 25vh;
