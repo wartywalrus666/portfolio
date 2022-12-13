@@ -8,7 +8,6 @@ import Project from './projects/Project';
 
 class AppRouter extends React.Component {
 
-    // basename={process.env.PUBLIC_URL}
     render() {
         return (
             <HashRouter>

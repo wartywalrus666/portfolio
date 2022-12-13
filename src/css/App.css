@@ -1,6 +1,6 @@
 :root {
   --black: rgb(31, 31, 31);
-  --translucentgrey: rgba(238, 238, 238, 0.5);
+  --translucentgrey: rgba(238, 238, 238, 0.1);
   --lightgrey: rgb(238, 238, 238);
 }
 

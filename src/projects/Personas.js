@@ -1,4 +1,8 @@
 import '../css/Project.css';
+import int from '../img/personas/interface.png';
+import chandler from '../img/personas/chandler.png';
+import sheila from '../img/personas/sheila.png'
+import storyboard from '../img/personas/storyboard.png'
 
 function Personas() {
 
@@ -6,30 +10,30 @@ function Personas() {
         <div className='Project'>
             <h1 className='Project-title'>C@B Personas</h1>
             <div className='Project-introduction'>
-                <h3>The <a href='cab.brown.edu'>Courses@Brown</a> website receives a high volume of traffic every semester
-                    from Brown's enrolled student population, who depend on it to browse, search, and register for classes.
-                    C@B is a functionally complex interface that has been continually updated. I'm interested in better
-                    understanding its user experience—how do students interact with the C@B interface?—by observing and
-                    interviewing real users, and creating personas and a storyboard.</h3>
+                <h2>Context</h2>
+                <p><a href='cab.brown.edu'>Courses@Brown</a> is a course catalog website that receives a high volume of traffic every semester from Brown's student population, who depend on it to browse, search, and register for classes.
+                    C@B is a functionally complex interface that is continually updated year to year. I'm interested in better
+                    understanding its user experience—(how do students interact with the C@B interface?)—by observing and
+                    interviewing real users, and creating personas and a storyboard.</p>
                 <p>This a basic rendering of a C@B page.</p>
-                <img alt="drawing of C@B interface" src='../img/personas/interface.png'></img>
+                <img className='Project-img' alt="drawing of C@B interface" src={int} />
             </div>
             <div className='Project-body'>
-                <h2>Data Collection & Interviews</h2>
+                <h2>Process: Data Collection & Interviews</h2>
                 <h3>Observations</h3>
                 <p>Collecting real data on users interacting with interfaces helps us understand how they are used, features
                     that are beneficial, and areas for improvement. I observed 4 users browse and make changes on C@B,
                     paying attention to objective actions, struggles or difficulties.<br />
                     Here were my findings: <br />
-                    - There are many repeated clicks that could have been reduced with the functionality of an extra button
-                    (eg. navigating from single course in calendar view to all cart courses in calendar view requires you to
-                    click back to your cart and reclick the calendar icon)<br />
-                    - Users tended to open external links linked within C@B, and needed to navigate between multiple
-                    tabs<br />
-                    - Certain delays in submit buttons (add to cart, register) would cause the user to click the button
-                    multiple times<br />
-                    - The time users spent scrolling and reading course descriptions varied widely, some skimmed classes
-                    very quickly, some spent extending time reading through each blurb carefully<br />
+                    <li>There are many repeated clicks that could have been reduced with the functionality of an extra button
+                        (eg. navigating from single course in calendar view to all cart courses in calendar view requires you to
+                        click back to your cart and reclick the calendar icon)</li>
+                    <li> Users tended to open external links linked within C@B, and needed to navigate between multiple
+                        tabs</li>
+                    <li> Certain delays in submit buttons (add to cart, register) would cause the user to click the button
+                        multiple times</li>
+                    <li> The time users spent scrolling and reading course descriptions varied widely, some skimmed classes
+                        very quickly, some spent extending time reading through each blurb carefully</li>
                 </p>
                 <h3>Interview Questions</h3>
                 <p>
@@ -63,21 +67,16 @@ function Personas() {
                 <p>Sheila is an avid shopper that likes to explore lots of courses in different departments and often feels
                     overwhelmed by wide varieties of options. She likes to spend lots of time browsing through C@B using
                     various filters and wishes C@B was faster during registration</p>
-                <div classname='Project-img'>
-                    <img alt='persona shopper sheila' src='../img/personas/sheila.png' />
-                </div>
+                <img className='Project-img' alt='persona shopper sheila' src={sheila} />
                 <h3>Chillin' Chandler</h3>
                 <p>Chandler doesn't really worry about C@B deadlines because her classes are generally large uncapped
                     lectures or niche seminars that don't have waitlists. She has lots of reqs to meet so all of her
                     semesters are pretty planned/filled out. She usually searches by course code or her specific departments
                     to add to her cart.</p>
-                <div classname='Project-img'>
-                    <img classname='Project-img' alt='persona chillin chandler' src='../img/personas/chandler.png' />
-                </div>
+                <img className='Project-img' alt='persona chillin chandler' src={chandler} />
                 <h3>Sheila's Storyboard</h3>
-                <div classname='Project-img'>
-                    <img classname='Project-img' alt='sheilas storyboard' src='../img/personas/storyboard.png' />
-                </div>
+                <img className='Project-img' alt='sheilas storyboard' src={storyboard} />
+                <p>I found that sketching up these Personas and Storyboards was an engaging way to understand how users think and interact with interfaces, and helped me develop the skills to observe and ask insightful questions.</p>
             </div>
         </div>
     )

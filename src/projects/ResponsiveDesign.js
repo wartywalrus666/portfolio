@@ -1,11 +1,18 @@
 import '../css/Project.css';
+import guide from '../img/redesign/design guide.png'
+import desktop from '../img/redesign/desktop.png'
+import mobile from '../img/redesign/mobile.png'
+import original from '../img/redesign/original.png'
+import tablet from '../img/redesign/tablet.png'
+import wireframes from '../img/redesign/wireframes.jpg'
 
 function ResponsiveDesign() {
 
     return (
-        <div className='Project-ResponsiveDesign'>
-            <h1 class='title'>Responsive Redesign</h1>
+        <div className='Project'>
+            <h1 class='Project-title'>Responsive Redesign</h1>
             <div className='Project-introduction'>
+                <h2>Context</h2>
                 <p>Website responsiveness has become increasingly applicable over the past two decades as the sale of desktop
                     computers, monitors, laptops, mobile phones, and tablets have grown, each of which are offered in
                     wide-ranging screen sizes. Websites originally intended for laptop viewing experiences must now adapt to a
@@ -23,7 +30,7 @@ function ResponsiveDesign() {
                 </p>
                 <h3>Areas for improvement</h3>
                 <p>
-                    <img src="../img/redesign/original.png" alt="original website" /> <br />
+                    <img className='Project-img' src={original} alt="original website" /> <br />
                     We can observe a few things just from the top of the page:
                     <li>The height of the header and navbar are too tall, which blocks the primary content of the website, aka
                         what people are looking for when they want to buy puzzles</li>
@@ -43,7 +50,7 @@ function ResponsiveDesign() {
             </div>
 
             <div className='Project-body'>
-                <h2 class='title'>Redesign</h2>
+                <h2 class='title'>Process: Redesign</h2>
                 <p>
                     In redesigning the website, I aim to only alter specific parts to resolve the above issues without altering
                     the existing identity/aesthetics of the website. The visual design guide created with Figma upholds the
@@ -51,15 +58,15 @@ function ResponsiveDesign() {
                 </p>
                 <h3>Visual Design Guide</h3>
                 <p>
-                    <img src="../img/redesign/design guide.png" alt='visual design guides' />
+                    <img className='Project-img' src={guide} alt='visual design guides' />
                 </p>
                 <h3>Low-Fidelity Prototype</h3>
                 <p>
                     Below are annotated wireframes of how the redesigned website might look in laptop, tablet, and mobile screen
-                    sizes. <br />
-                    <img src="../img/redesign/wireframes.jpg" alt='Lo-fi website design wireframes' />
+                    sizes. <br /><br />
+                    <img className='Project-img' src={wireframes} alt='Lo-fi website design wireframes' />
                 </p>
-                <h3>Hi-Fidelity Prototype</h3>
+                <h4>Hi-Fidelity Prototypes</h4>
                 <p>
                     Below are hi-fi prototypes of each screen size based on the low-fi prototypes. Here, each of the red white
                     and blue headers at the top of the page are div sections that can use flexbox to space its elements evenly
@@ -70,12 +77,12 @@ function ResponsiveDesign() {
                     puzzle products since vertical and horizontal scrolling is enabled, but the size of the thumbnail picture
                     may be variable. Hovering over navbar links should change the text colour to green.
                 </p>
-                <h4>Desktop Prototype:</h4>
-                <img src="../img/redesign/desktop.png" alt='desktop hi-fi prototype' />
+                <h3>Desktop Prototype:</h3>
+                <img className='Project-img' src={desktop} alt='desktop hi-fi prototype' />
                 <h4>Tablet Prototype:</h4>
-                <img src="../img/redesign/tablet.png" alt='tablet hi-fi prototype' />
+                <img className='Project-img' src={tablet} alt='tablet hi-fi prototype' />
                 <h4>Mobile Prototype:</h4>
-                <img src="../img/redesign/mobile.png" alt='mobile hi-fi prototype' />
+                <img className='Project-img' src={mobile} alt='mobile hi-fi prototype' />
                 <h3>Live Redesigned Website</h3>
                 <p>
                     Based on the hi-fi prototypes, the live redesigned website can be found <a

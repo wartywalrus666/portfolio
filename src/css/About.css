@@ -1,12 +1,51 @@
 .About {
     background-color: var(--black);
-    height: 100vh;
+    /* height: 100vh; */
+}
+
+.About-r1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.About-Text {
+    margin-bottom: 8em;
+    padding-bottom: 4em;
 }
 
 .About-Text h1 {
     color: white;
     font-size: 50px;
     width: 50vw;
-    margin-left: 5vw;
     margin-top: 2em;
+}
+
+.About-goals h1 {
+    color: white;
+    font-size: 40px;
+    width: 60vw;
+    /* margin-top: 2em; */
+    text-align: right;
+    float: right;
+}
+
+.About-goals {
+    width: 100vw;
+    background-color: var(--translucentgrey);
+    padding: 4em;
+}
+
+.About-img-wrapper {
+    /* margin-left: 5em; */
+    margin-top: 5em;
+}
+
+.About-img {
+    /* width: 25vw; */
+    max-height: 60vh;
+}
+
+.About p {
+    color: white;
 }

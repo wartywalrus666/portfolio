@@ -1,0 +1,48 @@
+.Projects {
+    background-color: rgb(31, 31, 31);
+    min-height: 100vh;
+    padding-bottom: 8em;
+}
+
+/* .Projects-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+} */
+
+.Projects-blurb {
+    /* width: 35vw; */
+    margin: 5em;
+    text-align: center;
+}
+
+.Projects-links {
+    margin-top: 5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Projects-link {
+    width: 40vw;
+    padding: 1em 3em;
+    margin: 1em;
+    background-color: var(--translucentgrey);
+}
+
+.Projects h2 {
+    padding: 0;
+    padding-top: 0.3em;
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.Projects p {
+    padding-top: 0;
+    color: white;
+}
+
+.Projects a {
+    text-decoration: underline white;
+}

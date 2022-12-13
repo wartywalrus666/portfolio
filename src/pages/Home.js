@@ -48,7 +48,7 @@ function Home() {
             <Navbar currentPage="home" />
             <div className='Home-paint'>
                 <CanvasDraw {...props} /> <br />
-                Doodleboard :~)
+                Scratchboard :~) <br />Doodle on me!
             </div>
             <div className='Home-intro'>
                 <h1>Hi! Welcome to my portfolio. My UI/UX work lives in this website—feel free to look around.</h1>
