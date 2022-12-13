@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c5d824af.css",
-    "main.js": "/portfolio/static/js/main.2f7ea17a.js",
+    "main.css": "/portfolio/static/css/main.1bc0c653.css",
+    "main.js": "/portfolio/static/js/main.2056c0bb.js",
+    "static/media/desktop.png": "/portfolio/static/media/desktop.07607c3b284ce529b694.png",
+    "static/media/original.png": "/portfolio/static/media/original.570a7a89c4130b217308.png",
+    "static/media/tablet.png": "/portfolio/static/media/tablet.43afd6ae9d13fc358fbb.png",
+    "static/media/mobile.png": "/portfolio/static/media/mobile.91d85cc44f841b7ea807.png",
+    "static/media/storyboard.png": "/portfolio/static/media/storyboard.e62efac2d5ba5ea7dea2.png",
+    "static/media/wireframes.jpg": "/portfolio/static/media/wireframes.368c0b03df9d595ad401.jpg",
+    "static/media/interface.png": "/portfolio/static/media/interface.a9cf9378bc49aa7c6b89.png",
+    "static/media/chandler.png": "/portfolio/static/media/chandler.fc04f41781d262bff843.png",
+    "static/media/sheila.png": "/portfolio/static/media/sheila.5e4e1dee36e6b72f68dc.png",
+    "static/media/design guide.png": "/portfolio/static/media/design guide.fef86845a51c5e00b71f.png",
+    "static/media/gustavklimt.jpg": "/portfolio/static/media/gustavklimt.a71b60fc58d06dddd08d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.c5d824af.css.map": "/portfolio/static/css/main.c5d824af.css.map",
-    "main.2f7ea17a.js.map": "/portfolio/static/js/main.2f7ea17a.js.map"
+    "main.1bc0c653.css.map": "/portfolio/static/css/main.1bc0c653.css.map",
+    "main.2056c0bb.js.map": "/portfolio/static/js/main.2056c0bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5d824af.css",
-    "static/js/main.2f7ea17a.js"
+    "static/css/main.1bc0c653.css",
+    "static/js/main.2056c0bb.js"
   ]
 }
